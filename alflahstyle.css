@@ -1,11 +1,20 @@
 * {
     margin: 0;
-    /* font-family: Arial; */
+    font-family: Inter;
     border: border-box;
 }
-body{
-    background-color:rgb(241, 237, 237);
+.inter-uniquifier {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+
+body {
+    background-color: rgb(241, 237, 237);
 }
+
 .navbar {
     height: 60px;
     background-color: #626262;
@@ -63,12 +72,12 @@ body{
     justify-content: center;
     margin-top: 40px;
     margin-bottom: 35px;
-   
+
 
 }
 
 .h1 {
-    font-family: "sans-serif";
+    font-family: "Inter";
     font-weight: bold;
 }
 
@@ -77,23 +86,26 @@ body{
     margin-left: 1%;
     font-family: "sans-serif";
 }
+
 .cardsarea {
     display: flex;
-    
+
     justify-content: space-evenly;
     height: 900px;
     margin: 2%;
 }
+
 .card {
     padding: 7%;
     width: 80%;
     height: 43%;
     border-radius: 5%;
     box-shadow: 1px 1px rgb(180, 229, 244);
-    background-color:ghostwhite ;
-    
-    
+    background-color: ghostwhite;
+
+
 }
+
 /* .card:hover{
     background-color:rgb(166, 208, 245)
     
@@ -104,65 +116,152 @@ body{
     height: 200px;
     /* width: 250px;
     margin-left: 5%; */
-    background-size: cover; 
-  
+    background-size: cover;
+
 }
-.card-heading{
+
+.card-heading {
     margin-top: 15%;
     font-weight: 600;
-    font-size:x-large;
-    
+    font-size: x-large;
+
 }
-.card-para{
+
+.card-para {
     margin-top: 15%;
     font-size: 1rem;
     /* text-align: center; */
 }
-.h3{
+
+.h3 {
     margin-top: -430px;
     text-align: center;
     /* font-weight: bold; */
 }
-.container1{
-    height: 700px;
+
+.container1 {
+    height: 380px;
     width: 95%;
     /* display: flex; 
      align-items: center;
      justify-content: center;  */
     background-color: white;
+    padding-top: 7%;
     margin-top: 40px;
     margin-left: 2.5%;
     border-radius: 10px;
 }
-.container1{
-    padding-top: 7%;
+
+/* quick_fact hr {
+    width: 40%;
+    display: inline-block;
+}
+hr.hr_narrow {
+    width: 7%;
+}
+hr {
+    background-color: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .08);
+}
+hr, .hr_wide, .hr_zigzag, .hr_dots {
+    margin: 0 auto 15px;
+    clear: both;
+}
+hr {
+    display: block;
+    border: none;
+    outline: none;
+    height: 1px;
+    width: 100%;
+    margin: 0 auto 15px;
+    clear: both;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+user agent stylesheet
+hr {
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    unicode-bidi: isolate;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+.quick_fact {
+    text-align: center;
+} */
+
+
+.container2 {
     display: flex;
     justify-content: space-evenly;
-   
+}
 
-}
-.contentbox{
-    /* border: 1px solid;
-    height: 40%; */
-}
-.c-box2{
-   display: flex; 
-   /* justify-content: center; */
-   align-items: center;
-}
-button{
-    background-color: darkred;
-    color: aliceblue;
-    height: 10%;
-    width: 300%;
-    
-}
-.c-button{
+.c-box2 {
     display: flex;
-   align-items: center;
-   
+    /* justify-content: center; */
+    align-items: center;
 }
 
+button {
+    background-color: #a24123;
+    color: aliceblue;
+    border-style: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+}
 
+.c-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
 
+}
 
+.container3 {
+    height: 700px;
+    width: 100%;
+
+}
+
+.heading1 {
+    margin-left: 1.7rem;
+    margin-top: 3%;
+    color: #a24123;
+}
+
+.para1 {
+    margin-left: 1.7rem;
+    margin-top: 1%;
+    color: #626262;
+    letter-spacing:-0.5px ;
+}
+.bg-box{
+    width: 80px;
+    height: 80px;
+    background-color: #a24123;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-left: -10px;
+}
+*::before, *::after {
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+em, i {
+    font-style: italic;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, strike, strong, tt, var, b, u, i, center, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
