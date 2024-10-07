@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    /* font-family: Arial; */
+    border: border-box;
+}
+body{
+    background-color:rgb(241, 237, 237);
+}
+.navbar {
+    height: 60px;
+    background-color: #626262;
+    color: white;
+    display: flex;
+    position: sticky top: 5px;
+
+
+
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.logo {
+    background-image: url("images__1_-removebg-preview.png");
+    background-size: cover;
+    height: 50px;
+    width: 112px;
+
+}
+
+.nav-anchortags {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.95rem;
+}
+
+.man-icon {
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.99rem;
+    margin-left: 30%;
+}
+
+.search-icon {
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.99rem;
+    margin-right: 1%;
+}
+
+.mainheading {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 35px;
+   
+
+}
+
+.h1 {
+    font-family: "sans-serif";
+    font-weight: bold;
+}
+
+.h2 {
+    color: #a24123;
+    margin-left: 1%;
+    font-family: "sans-serif";
+}
+.cardsarea {
+    display: flex;
+    
+    justify-content: space-evenly;
+    height: 900px;
+    margin: 2%;
+}
+.card {
+    padding: 7%;
+    width: 80%;
+    height: 43%;
+    border-radius: 5%;
+    box-shadow: 1px 1px rgb(180, 229, 244);
+    background-color:ghostwhite ;
+    
+    
+}
+/* .card:hover{
+    background-color:rgb(166, 208, 245)
+    
+
+} */
+
+.cardimg {
+    height: 200px;
+    /* width: 250px;
+    margin-left: 5%; */
+    background-size: cover; 
+  
+}
+.card-heading{
+    margin-top: 15%;
+    font-weight: 600;
+    font-size:x-large;
+    
+}
+.card-para{
+    margin-top: 15%;
+    font-size: 1rem;
+    /* text-align: center; */
+}
+.h3{
+    margin-top: -430px;
+    text-align: center;
+    /* font-weight: bold; */
+}
+.container1{
+    height: 700px;
+    width: 95%;
+    /* display: flex; 
+     align-items: center;
+     justify-content: center;  */
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 2.5%;
+    border-radius: 10px;
+}
+.container1{
+    padding-top: 7%;
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+.contentbox{
+    /* border: 1px solid;
+    height: 40%; */
+}
+.c-box2{
+   display: flex; 
+   /* justify-content: center; */
+   align-items: center;
+}
+button{
+    background-color: darkred;
+    color: aliceblue;
+    height: 10%;
+    width: 300%;
+    
+}
+.c-button{
+    display: flex;
+   align-items: center;
+   
+}
+
+
+
+
