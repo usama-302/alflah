@@ -12,15 +12,17 @@
   
 
 body {
-    background-color: rgb(241, 237, 237);
+    background-color: rgb(234, 234, 234);
 }
 
 .navbar {
     height: 60px;
-    background-color: #626262;
-    color: white;
+    background-color: white;
+    color:  #626262;
     display: flex;
-    position: sticky top: 5px;
+    /* position: sticky top 5px; */
+    position: fixed;
+    width: 100%;
 
 
 
@@ -248,9 +250,9 @@ button {
     background-color: #a24123;
     border-radius: 10px;
     margin-top: 3%;
-    margin-left: -10px;
+    margin-left: -15px;
 }
-*::before, *::after {
+/* *::before, *::after {
     box-sizing: inherit;
     -webkit-font-smoothing: antialiased;
 }
@@ -265,3 +267,69 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font: inherit;
     vertical-align: baseline;
 }
+.list_item.lists_1 .list_left {
+    background-color: #a12324;
+}
+.list_item.lists_1 .list_left {
+    color: #fff;
+}
+.list_item.lists_1 .list_left {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-image: url(../images/stripes/stripes_3_b.png);
+    -webkit-box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, .1);
+    box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, .1);
+}
+.list_item .list_left {
+    color: #a12324;
+}
+.list_item .list_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    overflow: hidden;
+    text-align: center;
+    float: left;
+}
+list_item.lists_1 .list_left {
+    color: #fff;
+}
+.list_item .list_left {
+    color: #a12324;
+}
+.list_item .list_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    overflow: hidden;
+    text-align: center;
+    float: left;
+}
+
+user agent stylesheet
+i {
+font-style: italic;
+}
+.list_item.lists_1 .list_left {
+color: #fff;
+}
+.list_item .list_left {
+color: #a12324;
+}
+.list_item .list_left {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 80px;
+height: 80px;
+font-size: 50px;
+overflow: hidden;
+text-align: center;
+float: left;
+} */
