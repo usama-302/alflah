@@ -3,13 +3,14 @@
     font-family: Inter;
     border: border-box;
 }
+
 .inter-uniquifier {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-  }
-  
+}
+
 
 body {
     background-color: rgb(234, 234, 234);
@@ -18,7 +19,7 @@ body {
 .navbar {
     height: 60px;
     background-color: white;
-    color:  #626262;
+    color: #626262;
     display: flex;
     /* position: sticky top 5px; */
     position: fixed;
@@ -85,7 +86,7 @@ body {
 
 .h2 {
     color: #a24123;
-    margin-left: 1%;
+    margin-left: 10px;
     font-family: "sans-serif";
 }
 
@@ -130,7 +131,7 @@ body {
 }
 
 .card-para {
-    margin-top: 15%;
+    margin-top: 10%;
     font-size: 1rem;
     /* text-align: center; */
 }
@@ -214,15 +215,16 @@ button {
     background-color: #a24123;
     color: aliceblue;
     border-style: none;
-    width: 120px;
-    height: 40px;
+    width: 130px;
+    height: 50px;
     border-radius: 10px;
+    font-size: 1rem;
 }
 
 .c-button {
     display: flex;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 4%;
 
 }
 
@@ -232,7 +234,7 @@ button {
 
 }
 
-.heading1 {
+/* .heading1 {
     margin-left: 1.7rem;
     margin-top: 3%;
     color: #a24123;
@@ -251,7 +253,7 @@ button {
     border-radius: 10px;
     margin-top: 3%;
     margin-left: -15px;
-}
+} */
 /* *::before, *::after {
     box-sizing: inherit;
     -webkit-font-smoothing: antialiased;
@@ -333,3 +335,57 @@ overflow: hidden;
 text-align: center;
 float: left;
 } */
+.heading1 {
+    margin-top: 4%;
+    justify-content: center;
+    display: flex;
+   
+}
+.catagory{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cic1 {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    /* border: solid black; */
+    background-image: url(image1.jpeg);
+    background-size: cover;
+    margin-top: 5%;
+}
+.cic2 {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    /* border: solid black; */
+    background-image: url(image2.jpeg);
+    background-size: cover;
+    margin-top: 5%;
+}
+.cic3 {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    /* border: solid black; */
+    background-image: url(image1.jpeg);
+    background-size: cover;
+    margin-top: 5%;
+}
+.cic4 {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    /* border: solid black; */
+    background-image: url(image1.jpeg);
+    background-size: cover;
+    margin-top: 5%;
+}
+.catagory-heading{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    width: 100%;
+}
