@@ -482,13 +482,14 @@ float: left;
     
 }
 .catalog-img h4{
-    text-align: center;
+    text-align: start;
     margin-top: 10px;
+    width: 90%;
 }
 .catalog-img{
     margin-top: 4%;
     flex-wrap: wrap;
-    width: 90%;
+    width: 95%;
     justify-content: space-between;
-    margin-left:  5%;
+    margin-left:  2%;
 }
