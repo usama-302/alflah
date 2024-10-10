@@ -16,15 +16,31 @@ body {
     background-color: rgb(234, 234, 234);
 }
 
+/* .header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.header.transparent {
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: none;
+} */
+
 .navbar {
-    height: 60px;
+    height: 100px;
     background-color: white;
     color: #626262;
     display: flex;
     /* position: sticky top 5px; */
     position: fixed;
     width: 100%;
-
+    animation-timeline: scroll(nearest);
 
 
 }
@@ -36,10 +52,10 @@ body {
 }
 
 .logo {
-    background-image: url("images__1_-removebg-preview.png");
+    background-image: url("logo.png");
     background-size: cover;
-    height: 50px;
-    width: 112px;
+    height: 80px;
+    width: 100px;
 
 }
 
@@ -50,7 +66,11 @@ body {
     justify-content: space-evenly;
     font-size: 0.95rem;
 }
-
+a{
+    text-decoration: none;
+    color: #a24123;
+    font-weight: 600;
+}
 .man-icon {
     width: 5%;
     display: flex;
@@ -58,6 +78,7 @@ body {
     align-items: center;
     font-size: 0.99rem;
     margin-left: 30%;
+    color: #a24123;
 }
 
 .search-icon {
@@ -67,6 +88,7 @@ body {
     align-items: center;
     font-size: 0.99rem;
     margin-right: 1%;
+    color: #a24123;
 }
 
 .mainheading {
@@ -74,7 +96,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 40px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 
 
 }
@@ -87,7 +109,7 @@ body {
 .h2 {
     color: #a24123;
     margin-left: 10px;
-    font-family: "sans-serif";
+    font-family: "Inter";
 }
 
 .cardsarea {
@@ -124,7 +146,7 @@ body {
 }
 
 .card-heading {
-    margin-top: 15%;
+    margin-top: 10%;
     font-weight: 600;
     font-size: x-large;
 
@@ -460,22 +482,25 @@ float: left;
     margin: 0 auto;
 }
  */
- .cic1{
+.cic1 {
     margin-top: 4%;
 
- }
- .cic1 img{
+}
+
+.cic1 img {
     display: block;
     height: 200px;
     width: 200px;
     border-radius: 100px;
     /* margin-top: 4%; */
- }
- .cic1 h4{
+}
+
+.cic1 h4 {
     text-align: center;
     margin-top: 10px;
- }
-.catalog-img img{
+}
+
+/* .catalog-img img{
     display: block;
     height: 250px;
     width: 250px;
@@ -485,11 +510,110 @@ float: left;
     text-align: start;
     margin-top: 10px;
     width: 90%;
-}
-.catalog-img{
+} */
+/* .catalog-img{
     margin-top: 4%;
     flex-wrap: wrap;
-    width: 95%;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: space-around;
     margin-left:  2%;
+    display: flex;
+} */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+} */
+
+.catalog {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 22%;
+    /* Adjust the width as needed */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.item h2 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* .catalog-img2{
+    margin-top: 4%;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+ 
+}
+.catalog-img2 img{
+    display: block;
+    height: 250px;
+    width: 250px;
+}
+.catalog-img2 h4{
+    text-align: start;
+    margin-top: 10px;
+    width: 90%;
+} */
+.showcase-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+} */
+
+.showcase-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.showcase-item {
+    width: 22%;
+    /* Adjust the width as needed */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.showcase-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.showcase-item h2 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.button-next {
+    display: flex;
+    justify-content: center;
 }
